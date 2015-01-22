@@ -185,6 +185,8 @@
     <Compile Include="Models\Student.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
+    <Compile Include="ViewModels\CheckOutBookViewModel.cs" />
+    <Compile Include="ViewModels\CreateBookForCheckOutViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\bootstrap.css" />
@@ -252,6 +254,8 @@
     <Content Include="Views\Books\Edit.cshtml" />
     <Content Include="Views\Books\Delete.cshtml" />
     <Content Include="Views\Students\Index.cshtml" />
+    <Content Include="Views\Books\CheckOut.cshtml" />
+    <Content Include="Views\Books\CreateForCheckOut.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
