@@ -8,7 +8,7 @@
 <h2>@Html.ActionLink("Students", "Index") > @String.Format("{0} {1}", Model.FirstName, Model.LastName)</h2>
 
 <h4>Checked Out Books:</h4>
-<div>@Html.ActionLink("Check Out a Book", "CheckOut", "Books", new {studentId = Model.ID_Student})</div>
+<p>@Html.ActionLink("Check Out a Book", "CheckOut", "Books", new {studentId = Model.ID_Student}, null)</p>
 <ul>
     @foreach (Book book in Model.Books) 
     {
